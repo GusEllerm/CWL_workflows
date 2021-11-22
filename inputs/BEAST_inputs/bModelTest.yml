@@ -1,0 +1,3 @@
+beast_output:
+  class: File
+  path: SequenceSimulator.log

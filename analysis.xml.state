@@ -1,0 +1,22 @@
+<itsabeastystatewerein version='2.0' sample='10000000'>
+<statenode id='Tree.t:SequenceSimulator'>((0:0.15176708114200332,1:0.15176708114200332)3:0.06602023082185834,2:0.21778731196386167)4:0.0</statenode>
+<statenode id='birthRate.t:SequenceSimulator'>birthRate.t:SequenceSimulator[1 1] (-Infinity,Infinity): 6.708317701211875 </statenode>
+<statenode id='kappa.s:SequenceSimulator'>kappa.s:SequenceSimulator[1 1] (0.0,Infinity): 4.4969131521272 </statenode>
+<statenode id='gammaShape.s:SequenceSimulator'>gammaShape.s:SequenceSimulator[1 1] (0.001,1000.0): 0.8648060107179875 </statenode>
+<statenode id='freqParameter.s:SequenceSimulator'>freqParameter.s:SequenceSimulator[4 1] (0.0,1.0): 0.25307211488076603 0.24400471621579067 0.2505730664815095 0.25235010242193295 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"YuleBirthRateScaler.t:SequenceSimulator","p":0.16898802708831237,"accept":116767,"reject":281817,"acceptFC":115694,"rejectFC":281652,"rejectIv":0,"rejectOp":0},
+{"id":"YuleModelTreeScaler.t:SequenceSimulator","p":0.8222638518077655,"accept":62271,"reject":336493,"acceptFC":62205,"rejectFC":335312,"rejectIv":0,"rejectOp":0},
+{"id":"YuleModelTreeRootScaler.t:SequenceSimulator","p":0.8325443128779512,"accept":65802,"reject":332922,"acceptFC":65747,"rejectFC":331780,"rejectIv":170,"rejectOp":170},
+{"id":"YuleModelUniformOperator.t:SequenceSimulator","p":"NaN","accept":218708,"reject":3763902,"acceptFC":218068,"rejectFC":3752228,"rejectIv":0,"rejectOp":0},
+{"id":"YuleModelSubtreeSlide.t:SequenceSimulator","p":0.06786205330388444,"accept":123048,"reject":1868232,"acceptFC":123016,"rejectFC":1862077,"rejectIv":159346,"rejectOp":159346},
+{"id":"YuleModelNarrow.t:SequenceSimulator","p":"NaN","accept":1,"reject":1992419,"acceptFC":0,"rejectFC":1986290,"rejectIv":0,"rejectOp":0},
+{"id":"YuleModelWide.t:SequenceSimulator","p":"NaN","accept":0,"reject":398144,"acceptFC":0,"rejectFC":396973,"rejectIv":265479,"rejectOp":265479},
+{"id":"YuleModelWilsonBalding.t:SequenceSimulator","p":"NaN","accept":0,"reject":399293,"acceptFC":0,"rejectFC":398081,"rejectIv":349203,"rejectOp":349203},
+{"id":"KappaScaler.s:SequenceSimulator","p":0.7231709188686344,"accept":2340,"reject":11258,"acceptFC":2334,"rejectFC":11219,"rejectIv":0,"rejectOp":0},
+{"id":"gammaShapeScaler.s:SequenceSimulator","p":0.5627968391395628,"accept":3051,"reject":10156,"acceptFC":3038,"rejectFC":10120,"rejectIv":0,"rejectOp":0},
+{"id":"FrequenciesExchanger.s:SequenceSimulator","p":0.01835811510966246,"accept":3553,"reject":9824,"acceptFC":3535,"rejectFC":9803,"rejectIv":0,"rejectOp":0}
+]}
+-->
