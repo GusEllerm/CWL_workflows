@@ -1,1 +1,1 @@
-https://view.commonwl.org/workflows/github.com/GusEllerm/CWL_workflows/blob/main/workflows/BEAST/beast-2step-workflow.cwl
+https://view.commonwl.org/workflows/github.com/GusEllerm/CWL_workflows/blob/main/workflows/BEAST_examples/beast-2step-workflow.cwl
