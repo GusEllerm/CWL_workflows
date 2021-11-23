@@ -20,13 +20,11 @@ arguments: ["-e",
             set arrow from 0.0028,250 to 0.003,280;
             set xr [0.0:0.022];
             set yr [0:325];
-            plot '$(inputs.data.path)' using 1:2 title 'Column' with linespoints, '$(inputs.data.path)' using 1:3 title 'Beam' with points"]
+            plot '$(inputs.data.path)' using 1:2 title 'Column' with linespoints,
+            '$(inputs.data.path)' using 1:3 title 'Beam' with points"]
 
 requirements:
   InlineJavascriptRequirement: {}
-
-
-
 
 inputs:
   data:
