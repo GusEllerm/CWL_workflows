@@ -1,0 +1,5 @@
+julia_file:
+  class: File
+  path: julia_example.jl
+
+command: --help

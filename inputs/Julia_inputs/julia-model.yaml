@@ -1,0 +1,11 @@
+julia_file:
+  class: File
+  path: julia_example.jl
+
+model: --trainModel
+
+inFile:
+  class: File
+  path: testData.data
+
+outFile: "test.out"

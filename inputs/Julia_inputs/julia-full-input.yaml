@@ -1,0 +1,9 @@
+julia_file:
+  class: File
+  path: julia_example.jl
+
+gen_command: --loadIris
+data_out: testData.data
+
+model_command: --trainModel
+model_out: test.out
