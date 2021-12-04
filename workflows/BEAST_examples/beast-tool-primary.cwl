@@ -3,7 +3,7 @@
 cwlVersion: v1.0
 
 class: CommandLineTool
-baseCommand: ["beast", "-threads", "4"]
+baseCommand: ["beast", "-threads", "8"]
 
 inputs:
   beastXML_file:

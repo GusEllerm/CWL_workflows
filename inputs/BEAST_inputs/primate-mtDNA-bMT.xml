@@ -57,7 +57,7 @@ spec="Alignment">
     
     <map name="OneOnX" >beast.math.distributions.OneOnX</map>
     
-    <run id="mcmc" spec="MCMC" chainLength="10000000">
+    <run id="mcmc" spec="MCMC" chainLength="100000">
             
         <state id="state" spec="State" storeEvery="5000">
                     
