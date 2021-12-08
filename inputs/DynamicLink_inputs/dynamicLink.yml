@@ -1,0 +1,6 @@
+file:
+  class: File
+  path: test.txt
+
+dataDir:
+  class: Directory
