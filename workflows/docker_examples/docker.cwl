@@ -5,7 +5,7 @@ class: CommandLineTool
 baseCommand: node
 hints:
   DockerRequirement:
-    dockerPull: node:slim
+    dockerPull: 
 inputs:
   src:
     type: File
